@@ -1,0 +1,259 @@
+统一下单
+---------------------------------------------------------------------------------------------------------------
+
+<xml>
+    <appid>wxba004d8c6d611e32</appid>
+    <body>杰岱投资-理财产品</body>
+    <mch_id>1563136541</mch_id>
+    <nonce_str>06c6a7d911e5df668a4a9d510db9febb</nonce_str>
+    <notify_url>http://cjf.qianmu.fun:8080/wepay/handlePayResult</notify_url>
+    <openid>oG_Lp1MOCClUT-2Q5LqOrfq-qcFg</openid>
+    <out_trade_no>1573992416949</out_trade_no>
+    <spbill_create_ip>114.63.40.152</spbill_create_ip>
+    <total_fee>1</total_fee>
+    <trade_type>JSAPI</trade_type>
+    <sign>44C9F11D2981036D106FA9D5C2E5E067</sign>
+</xml>
+
+<!-- appid=wxba004d8c6d611e32&body=杰岱投资-理财产品&mch_id=1563136541&nonce_str=06c6a7d911e5df668a4a9d510db9febb&notify_url=http://cjf.qianmu.fun:8080/wepay/handlePayResult&openid=oG_Lp1MOCClUT-2Q5LqOrfq-qcFg&out_trade_no=1573992416949&spbill_create_ip=114.63.40.152&total_fee=1&trade_type=JSAPI&key=9f87a21142b6af5b144dbb4ac2077c5b -->
+
+<xml>
+    <return_code>
+        <![CDATA[SUCCESS]]>
+    </return_code>
+    <return_msg>
+        <![CDATA[OK]]>
+    </return_msg>
+    <appid>
+        <![CDATA[wxba004d8c6d611e32]]>
+    </appid>
+    <mch_id>
+        <![CDATA[1563136541]]>
+    </mch_id>
+    <nonce_str>
+        <![CDATA[LO9M5WvoWDm0Gwyj]]>
+    </nonce_str>
+    <sign>
+        <![CDATA[23AB0FD3E16AF6ED255D24ACBDD921B2]]>
+    </sign>
+    <result_code>
+        <![CDATA[SUCCESS]]>
+    </result_code>
+    <prepay_id>
+        <![CDATA[wx17112942280288fa6ea98dba1400503600]]>
+    </prepay_id>
+    <trade_type>
+        <![CDATA[JSAPI]]>
+    </trade_type>
+</xml>
+
+<!-- appid=wxba004d8c6d611e32&mch_id=1563136541&nonce_str=LO9M5WvoWDm0Gwyj&prepay_id=wx17112942280288fa6ea98dba1400503600&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=9f87a21142b6af5b144dbb4ac2077c5b -->
+
+<!-- {
+    "transaction_id": "4200000457201911179832038695",
+    "nonce_str": "06c6a7d911e5df668a4a9d510db9febb",
+    "bank_type": "CFT",
+    "openid": "oG_Lp1MOCClUT-2Q5LqOrfq-qcFg",
+    "sign": "490D6330C4DB10925F52F7104A7FCB32",
+    "fee_type": "CNY",
+    "mch_id": "1563136541",
+    "cash_fee": "1",
+    "out_trade_no": "1573992416949",
+    "appid": "wxba004d8c6d611e32",
+    "total_fee": "1",
+    "trade_type": "JSAPI",
+    "result_code": "SUCCESS",
+    "time_end": "20191117200905",
+    "is_subscribe": "Y",
+    "return_code": "SUCCESS"
+} -->
+
+<xml>
+    <appid>wxba004d8c6d611e32</appid>
+    <body>杰岱投资-理财产品</body>
+    <mch_id>1563136541</mch_id>
+    <nonce_str>06c6a7d911e5df668a4a9d510db9febb</nonce_str>
+    <notify_url>http://cjf.qianmu.fun:8080/wepay/handlePayResult</notify_url>
+    <openid>oG_Lp1MOCClUT-2Q5LqOrfq-qcFg</openid>
+    <out_trade_no>1573992416949</out_trade_no>
+    <spbill_create_ip>114.63.40.152</spbill_create_ip>
+    <total_fee>1</total_fee>
+    <trade_type>JSAPI</trade_type>
+    <sign>44C9F11D2981036D106FA9D5C2E5E067</sign>
+
+    <attach>支付测试</attach>
+    <detail><![CDATA[{ "goods_detail":[ { "goods_id":"iphone6s_16G", "wxpay_goods_id":"1001", "goods_name":"iPhone6s 16G", "quantity":1, "price":528800, "goods_category":"123456", "body":"苹果手机" }, { "goods_id":"iphone6s_32G", "wxpay_goods_id":"1002", "goods_name":"iPhone6s 32G", "quantity":1, "price":608800, "goods_category":"123789", "body":"苹果手机" } ] }]]></detail>
+
+</xml>
+
+<!-- {
+    "goods_detail": [
+        {
+            "goods_id": "iphone6s_16G",
+            "wxpay_goods_id": "1001",
+            "goods_name": "iPhone6s 16G",
+            "quantity": 1,
+            "price": 528800,
+            "goods_category": "123456",
+            "body": "苹果手机"
+        },
+        {
+            "goods_id": "iphone6s_32G",
+            "wxpay_goods_id": "1002",
+            "goods_name": "iPhone6s 32G",
+            "quantity": 1,
+            "price": 608800,
+            "goods_category": "123789",
+            "body": "苹果手机"
+        }
+    ]
+} -->
+
+
+订单查询
+----------------------------------------------------------------------------------------------------------
+
+<xml>
+    <appid>wxba004d8c6d611e32</appid>
+    <mch_id>1563136541</mch_id>
+    <nonce_str>ec2316275641faa3aacf3cc599e8730f</nonce_str>
+    <out_trade_no>1573961313207</out_trade_no>
+    <sign>8BD47EFB7461963608A7C6F6A19A1C9F</sign>
+</xml>
+
+<!-- appid=wxba004d8c6d611e32&mch_id=1563136541&nonce_str=ec2316275641faa3aacf3cc599e8730f&out_trade_no=1573961313207&key=9f87a21142b6af5b144dbb4ac2077c5b -->
+
+<xml>
+    <appid>wxba004d8c6d611e32</appid>
+    <mch_id>1563136541</mch_id>
+    <nonce_str>ec2316275641faa3aacf3cc599e8730f</nonce_str>
+    <transaction_id>4200000466201911175768449132</transaction_id>
+    <sign>1966E7F7D35724CB89E4DFE5E68BAF94</sign>
+</xml>
+
+<!-- appid=wxba004d8c6d611e32&mch_id=1563136541&nonce_str=ec2316275641faa3aacf3cc599e8730f&transaction_id=4200000466201911175768449132&key=9f87a21142b6af5b144dbb4ac2077c5b -->
+
+
+<xml>
+    <return_code>
+        <![CDATA[SUCCESS]]>
+    </return_code>
+    <return_msg>
+        <![CDATA[OK]]>
+    </return_msg>
+    <appid>
+        <![CDATA[wxba004d8c6d611e32]]>
+    </appid>
+    <mch_id>
+        <![CDATA[1563136541]]>
+    </mch_id>
+    <nonce_str>
+        <![CDATA[7q30hC7JsLXjSWbw]]>
+    </nonce_str>
+    <sign>
+        <![CDATA[B0A1EBAEDEB6CFB6BF5A22ABDFFC2A16]]>
+    </sign>
+    <result_code>
+        <![CDATA[SUCCESS]]>
+    </result_code>
+    <openid>
+        <![CDATA[oG_Lp1MOCClUT-2Q5LqOrfq-qcFg]]>
+    </openid>
+    <is_subscribe>
+        <![CDATA[Y]]>
+    </is_subscribe>
+    <trade_type>
+        <![CDATA[JSAPI]]>
+    </trade_type>
+    <bank_type>
+        <![CDATA[CFT]]>
+    </bank_type>
+    <total_fee>1</total_fee>
+    <fee_type>
+        <![CDATA[CNY]]>
+    </fee_type>
+    <transaction_id>
+        <![CDATA[4200000466201911175768449132]]>
+    </transaction_id>
+    <out_trade_no>
+        <![CDATA[1573961313207]]>
+    </out_trade_no>
+    <attach>
+        <![CDATA[]]>
+    </attach>
+    <time_end>
+        <![CDATA[20191117113740]]>
+    </time_end>
+    <trade_state>
+        <![CDATA[SUCCESS]]>
+    </trade_state>
+    <cash_fee>1</cash_fee>
+    <trade_state_desc>
+        <![CDATA[支付成功]]>
+    </trade_state_desc>
+    <cash_fee_type>
+        <![CDATA[CNY]]>
+    </cash_fee_type>
+</xml>
+
+退款
+---------------------------------------------------------------------------------------------------------------
+
+<xml>
+    <appid>wxba004d8c6d611e32</appid>
+    <mch_id>1563136541</mch_id>
+    <nonce_str>6cefdb308e1e2e8aabd48cf79e546a02</nonce_str>
+    <out_refund_no>r1573998512651</out_refund_no>
+    <!-- <out_trade_no>1573961313207</out_trade_no> -->
+    <refund_fee>1</refund_fee>
+    <total_fee>1</total_fee>
+    <transaction_id>4200000457201911179832038695</transaction_id>
+    <sign>82DB76A426803BE52CABEA060A8D8216</sign>
+</xml> 
+
+<!-- appid=wxba004d8c6d611e32&mch_id=1563136541&nonce_str=6cefdb308e1e2e8aabd48cf79e546a02&out_refund_no=r1573998512651&refund_fee=1&total_fee=1&transaction_id=4200000457201911179832038695&key=9f87a21142b6af5b144dbb4ac2077c5b -->
+
+<xml>
+    <return_code>
+        <![CDATA[SUCCESS]]>
+    </return_code>
+    <return_msg>
+        <![CDATA[OK]]>
+    </return_msg>
+    <appid>
+        <![CDATA[wxba004d8c6d611e32]]>
+    </appid>
+    <mch_id>
+        <![CDATA[1563136541]]>
+    </mch_id>
+    <nonce_str>
+        <![CDATA[KtSt3ngm4gTw2D0E]]>
+    </nonce_str>
+    <sign>
+        <![CDATA[838714AA3075DA4B2A1EE3B421EF945D]]>
+    </sign>
+    <result_code>
+        <![CDATA[SUCCESS]]>
+    </result_code>
+    <transaction_id>
+        <![CDATA[4200000457201911179832038695]]>
+    </transaction_id>
+    <out_trade_no>
+        <![CDATA[1573992416949]]>
+    </out_trade_no>
+    <out_refund_no>
+        <![CDATA[r1573998512651]]>
+    </out_refund_no>
+    <refund_id>
+        <![CDATA[50000702532019111713270494020]]>
+    </refund_id>
+    <refund_channel>
+        <![CDATA[]]>
+    </refund_channel>
+    <refund_fee>1</refund_fee>
+    <coupon_refund_fee>0</coupon_refund_fee>
+    <total_fee>1</total_fee>
+    <cash_fee>1</cash_fee>
+    <coupon_refund_count>0</coupon_refund_count>
+    <cash_refund_fee>1</cash_refund_fee>
+</xml>
