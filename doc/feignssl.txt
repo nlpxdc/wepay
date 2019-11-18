@@ -1,0 +1,3 @@
+https://github.com/Xiaobaxi/spring-boot-feign-ssl-starter
+
+https://stackoverflow.com/questions/37123061/feignclient-with-client-certificate-and-docker
